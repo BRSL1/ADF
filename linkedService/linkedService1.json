@@ -1,0 +1,15 @@
+{
+	"name": "linkedService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://adls4tnb.azuredatalakestore.net/webhdfs/v1",
+			"servicePrincipalId": "445cf668-160c-4ecf-ae91-dbd668e5ace6",
+			"tenant": "a00a6dae-b4a9-4b5a-b539-604f494d2788",
+			"subscriptionId": "bbac49dc-06b6-415e-ac97-fcd7869cabc9",
+			"resourceGroupName": "resgrp4tnb",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFERjRUTkJfNGMyYTQzZGEtZmIzZS00NzI0LTk3MjEtNGVjYTQzOTdhN2ZiIg0KfQ=="
+		}
+	}
+}
